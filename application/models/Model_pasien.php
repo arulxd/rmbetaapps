@@ -11,19 +11,19 @@ class Model_pasien extends CI_Model
     function get_tbl_pasien($no_rm)
     {
         $this->db->where('no_rm',$no_rm);
-        return $this->db->get('dbo.tbl_pasien')->row();
+        return $this->db->get('dbo.table_pasien')->row();
     }
 
     function get_all_tbl_pasien()
     {
         $this->db->order_by('no_rm', 'desc');
-        return $this->db->get('dbo.tbl_pasien')->result_array();
+        return $this->db->get('dbo.table_pasien')->result_array();
     }
         
 
     function add_tbl_pasien($data)
     {
-        $this->db->insert('dbo.tbl_pasien',$data);
+        $this->db->insert('dbo.table_pasien',$data);
         return $this->db->insert_id();
     }
     
