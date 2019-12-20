@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'rmbetaapp.database.windows.net',
+	'hostname' => 'https://rmappbeta.azurewebsites.net',
 	'port'	=> '1433',
 	'username' => 'arulxd',
 	'password' => 'Guitar00000!',
