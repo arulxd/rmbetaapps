@@ -75,14 +75,14 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'https://rmappbeta.azurewebsites.net',
+	'hostname' => 'tcp:rmbetaapp.database.windows.net',
 	'port'	=> '1433',
 	'username' => 'arulxd',
 	'password' => 'Guitar00000!',
 	'database' => 'rmbetaappDB',
 	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
-	'pconnect' => TRUE,
+	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,
 	'cachedir' => '',
