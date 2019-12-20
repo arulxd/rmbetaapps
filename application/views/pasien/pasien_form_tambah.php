@@ -53,10 +53,9 @@
 
 				<div class="card-footer">
 					<button type="submit" class="btn btn-danger"><i class="fa fa-dot-circle-o"></i> Simpan </button>
-					<a href="<?php echo site_url('pasien') ?>" class="btn btn-info"><i class="fa fa-sign-out"></i>
+					<a href="<?php echo site_url('https://rmappbeta.azurewebsites.net/') ?>" class="btn btn-info"><i class="fa fa-sign-out"></i>
 						Kembali</a>
 				</div>
 			</form>
 			<?php echo form_close(); ?>
-			redirect('https://rmappbeta.azurewebsites.net/index.php');
 		</div>
