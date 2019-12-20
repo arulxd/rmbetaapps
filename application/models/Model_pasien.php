@@ -34,7 +34,7 @@ class Model_pasien extends CI_Model
     {
 
         $query = $this->db->where("no_rm", $no_rm)
-                ->get("tbl_pasien");
+                ->get("dbo.table_pasien");
 
         if($query){
             return $query->result_array();
