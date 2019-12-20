@@ -7,6 +7,7 @@ class Pasien extends CI_Controller{
         $this->load->model('model_pasien');
       // $this->load->library('datatables');
       $this->load->helper('form');
+					$this->load->helper('url');
     } 
 
     function index()
