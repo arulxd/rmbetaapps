@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'rmbetaapp.database.windows.net',
+	'username' => 'arulxd',
+	'password' => 'Guitar00000!',
 	'database' => 'rmbetaappDB',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
