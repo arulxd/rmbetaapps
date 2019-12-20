@@ -4,7 +4,7 @@
 			<strong>Tambah Data Pasien</strong>
 		</div>
 		<div class="card-body card-block">
-			<?php echo form_open('pasien/simpan'); ?>
+			<?php echo form_open(base_url()."pasien/simpan"); ?>
 			<form action="" method="post" class="form-horizontal">
 
 				<div class="row form-group">
