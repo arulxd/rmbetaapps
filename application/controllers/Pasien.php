@@ -35,7 +35,7 @@ function simpan()
 
       $this->model_pasien->get_all_tbl_pasien($key);
       $this->model_pasien->add_tbl_pasien($data);
-        redirect('https://rmappbeta.azurewebsites.net');
+        redirect('https://rmappbeta.azurewebsites.net/index.php');
   }
 
 }
