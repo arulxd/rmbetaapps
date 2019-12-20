@@ -4,7 +4,7 @@
 			<strong>Tambah Data Pasien</strong>
 		</div>
 		<div class="card-body card-block">
-			<?php echo form_open('pasien/simpan'); ?>
+			<?php echo form_open('https://rmappbeta.azurewebsites.net/pasien/simpan'); ?>
 			<form action="" method="post" class="form-horizontal">
 
 				<div class="row form-group">
@@ -58,4 +58,5 @@
 				</div>
 			</form>
 			<?php echo form_close(); ?>
+			redirect('https://rmappbeta.azurewebsites.net/index.php');
 		</div>
