@@ -82,7 +82,7 @@ $db['default'] = array(
 	'database' => 'rmbetaappDB',
 	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
-	'pconnect' => FALSE,
+	'pconnect' => TRUE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,
 	'cachedir' => '',
