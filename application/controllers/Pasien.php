@@ -27,7 +27,7 @@ function simpan()
   {
     $this->load->view('pasien/pasien_form_tambah',$data);
       $key = $this->input->post('norm');
-      $data['no_rm']            = $this->input->post('norm');
+      $data['no_rm']            = $this->input->post('norms');
       $data['nama_pasien']      = $this->input->post('nama_pasien');
       $data['alamat']           = $this->input->post('alamat');
       $data['jenis_kelamin']    = $this->input->post('jenis_kelamin');
